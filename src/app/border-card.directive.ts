@@ -8,7 +8,7 @@ export class BorderCardDirective {
 
   private initialColor: string = '#f5c60a';
   private defaultColor: string = '#fc0a0a';
-  private defaultHeight: number = 180;
+  private defaultHeight: number = 192;
 
   constructor(private el: ElementRef) {
     this.setHeight(this.defaultHeight);

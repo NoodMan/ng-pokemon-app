@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-
+//ng generate pipe pokemon-type-color  
 @Pipe({
   name: 'pokemonTypeColor'
 })

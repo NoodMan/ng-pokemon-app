@@ -2,3 +2,8 @@
 body{
     background-color: white;
 }
+
+nav .nav-wrapper {
+    font-size: 30px;
+    text-align: center;
+  }
