@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Directive, OnInit } from '@angular/core';
 import { POKEMONS } from './mock-pokemons';
 import { Pokemon } from './pokemon';
+
 
 
 @Component({

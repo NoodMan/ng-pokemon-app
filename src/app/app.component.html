@@ -2,7 +2,8 @@
 <div class="container">
     <div class="row">
         <div *ngFor="let pokemon of pokemonList" class="col m4 s6">
-            <div class="card horizontal">
+            <div class="z-depth-5">
+            <div class="card horizontal" pkmnBorderCard>
                 <div class="card-image">
                     <img [src]="pokemon.picture" alt="">
                 </div>
@@ -13,7 +14,7 @@
                     </div>
                 </div>
             </div>
-            
+        </div>    
         </div>
     </div>
 </div>
