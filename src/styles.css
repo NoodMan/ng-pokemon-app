@@ -1,9 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
-body{
+body {
     background-color: white;
 }
 
 nav .nav-wrapper {
     font-size: 30px;
     text-align: center;
-  }
+}
+
+h1 {
+    text-align: center;
+}
+
+.teal {
+    background-color: #d90101 !important;
+}

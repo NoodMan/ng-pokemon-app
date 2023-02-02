@@ -2,13 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { POKEMONS } from '../mock-pokemons';
 import { Pokemon } from '../pokemon';
-//ng generate component detail-pokemon --inline-template=false
-
+//ng generate component evo-pokemon --inline-template=false
 @Component({
-  selector: 'app-detail-pokemon',
-  templateUrl: './detail-pokemon.component.html',
+  selector: 'app-evo-pokemon',
+  templateUrl: './evo-pokemon.component.html',
+ 
 })
-export class DetailPokemonComponent implements OnInit {
+export class EvoPokemonComponent implements OnInit {
 
   pokemonList: Pokemon[];
   pokemon: Pokemon | undefined;
@@ -27,8 +27,8 @@ export class DetailPokemonComponent implements OnInit {
   goToPokemonList() {
     this.router.navigate(['/pokemons'])
   }
-
+  
   lookEvoPokemon(){
-    this.router.navigate(['/pokemons/:id/evo'])
+    this.router.navigate(['pokemon/id/evo'])
   }
 }
